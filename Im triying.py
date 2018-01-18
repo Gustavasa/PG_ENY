@@ -5,7 +5,8 @@ HelloFile.write(
 import pyautogui as pg, os, sys, time
 pg.hotkey('winleft')
 pg.typewrite('shell\\n')
-pg.typewrite('shutdown -s')
+time.sleep(2)
+pg.typewrite('shutdown -s\\n')
 
 
 
@@ -14,3 +15,4 @@ pg.typewrite('shutdown -s')
 HelloFile.close()
 
 import Hello.py
+
